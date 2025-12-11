@@ -1,0 +1,37 @@
+section {
+    padding: 2em;
+text-indent: 1vw;
+}
+#presentacion {
+  height: 50vh;
+  background-image: url("../img/retrato2.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: cover;
+  align-items: flex-end;
+}
+#portafolio {
+  text-decoration: none;
+  color: inherit;
+}
+#portafolio h1 {
+  transition: all 0.3s ease;
+  font-size: 5vw;
+}
+#portafolio :hover {
+  opacity: 0.8;
+}
+table {
+  border: 2px solid black;
+}
+#capturas img {
+  width: 500px;
+  margin: 3em;
+  padding: 1em;
+}
+#capturas th {
+  padding-left: 2em;
+}
+button :hover {
+  transform: scale(1.03);
+}
